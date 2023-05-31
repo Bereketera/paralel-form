@@ -228,6 +228,7 @@ background:transparent;
 
 <div class="form">
 <form action="https://formsubmit.co/molalgnbereket@gmail.com" method="POST">
+<input type="hidden" name="_captcha" value="false">
 
                     <h2>submit a request</h2>
 					 <input type="text" name="company name:" placeholder="Enter your company name here">
@@ -271,22 +272,21 @@ background:transparent;
 <br><br>
 <div class="span">
 
-<input type="number" placeholder="enter volume here" name="volume">
+<input type="number" name="volume" placeholder="enter volume here" name="volume">
 
 
-<select class="contain" name="volume">
-<option value="" name="bags/mt/box" disabled selected hidden >unit</option>
+<select class="contain" name="bags/mt/box" >
+<option value="" disabled selected hidden >unit</option>
 <option >Bags</option>
 <option>MT</option>
-<option >Box/Container</option>
-
+<option >Box/Container</option></select>
 <input type="number" name="price" placeholder="enter target price here">
 
 
-<select class="contain" name="price">
-<option value="" name="lbs/ton" disabled selected hidden >unit</option>
+<select class="contain" name="lbs/ton">
+<option value=""  disabled selected hidden >unit</option>
 <option >$/Lbs</option>
-<option>$/Ton</option>
+<option>$/Ton</option></select>
 		</div>
 	<div class="final">	
 	
@@ -308,6 +308,7 @@ background:transparent;
 				<div class="form">
 
 <form action="https://formsubmit.co/molalgnbereket@gmail.com" method="POST">
+<input type="hidden" name="_captcha" value="false">
 
                     <h2>or contact us</h2>
 					 <input type="text" name="company name:" placeholder="Enter your company name here">
