@@ -33,7 +33,7 @@ box-shadow: 0px 10px 20px black;
   
     
     width: 300px;
-    height: 820px;
+    height: 830px;
 	background-color:white;
    
     border-radius: 10px;
@@ -217,6 +217,12 @@ background:transparent;
  width:300px;
  height:50px;
 }
+.final span{
+text-align:left;}
+.last{
+border: 1px solid #fff;
+
+}
 
 </style>
 <body>
@@ -233,11 +239,11 @@ background:transparent;
                     <h2>submit a request</h2>
 					 <input type="text" name="company name:" placeholder="Enter your company name here">
 					  <input type="text" name="name:" placeholder="Enter your name here">
-                    <input type="email" name="email:" placeholder="Enter Email Here">
+                    <input type="email" name="email:" placeholder="Enter  Email Here">
                     
 					<br><br><br>
 					<select class="container" name="commudity:">
-<option class="top" disabled selected>commudity</option>
+<option class="top" disabled selected>commodity</option>
 <option >Green</option>
 <option> Roasted</option>
 </select>
@@ -272,7 +278,7 @@ background:transparent;
 <br><br>
 <div class="span">
 
-<input type="number" name="volume" placeholder="enter volume here" name="volume">
+<input type="number" name="volume" placeholder="Enter volume here" name="volume">
 
 
 <select class="contain" name="bags/mt/box" >
@@ -280,7 +286,7 @@ background:transparent;
 <option >Bags</option>
 <option>MT</option>
 <option >Box/Container</option></select>
-<input type="number" name="price" placeholder="enter target price here">
+<input type="number" name="price" placeholder="Enter target price here">
 
 
 <select class="contain" name="lbs/ton">
@@ -290,9 +296,13 @@ background:transparent;
 		</div>
 	<div class="final">	
 	
-<input type="text" placeholder="destination" name="destination"><br>
-<span class="last">shipment date:<span>
-<input type="date" name="shipment date"><br><br>
+<input type="text" placeholder="Enter your destination here" name="destination">
+<br><br>
+<div class="last">
+<h1>shipment date:</h1>
+<input type="date" name="shipment date">
+</div>
+
 <h1>additional requirments:</h1>
 <textarea  name="requirements" placeholder="Enter any additional requirements"></textarea>
 </div>
@@ -313,7 +323,7 @@ background:transparent;
                     <h2>or contact us</h2>
 					 <input type="text" name="company name:" placeholder="Enter your company name here">
 					  <input type="text" name="name:" placeholder="Enter your name here">
-                    <input type="email" name="email:" placeholder="Enter Email Here">
+                    <input type="email" name="email:" placeholder="Enter your Email Here">
                     <input type="text" name="subject:" placeholder="Enter subject here"><br><br><br><br><br>
 					<h1>message</h1>
                     <textarea id="requirements" name="requirements" placeholder="Enter your message"></textarea>
